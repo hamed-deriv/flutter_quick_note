@@ -1,0 +1,30 @@
+name: flutter_quick_note
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  flutter_bloc: ^7.2.0
+  http: ^0.13.3
+  moor_flutter: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  json_annotation: any
+  moor_generator: any
+  build_runner: any
+
+flutter:
+  uses-material-design: true
